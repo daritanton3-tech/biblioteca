@@ -74,7 +74,21 @@
       <h2>Formulario de Préstamo</h2>
       <form action="#" method="get">
         <label for="NombreCompleto">Nombre Completo:</label>
-        <input id="NombreCompleto" type="text" />
+        <input id="NombreCompleto" type="text" name="NombreCompleto" />
+        <label for="CorreElectronico">Corre Electronico</label>
+        <input id="CorreElectronico" type="email" name="CorreElectronico" />
+        <label for="libro">Selecciona un libro</label>
+        <select id="libro" name="libro">
+          <option>Selecionar...</option>
+          <option>El misterio del bosque</option>
+          <option>Viaje a las estrellas</option>
+          <option>Cien años de soledad</option>
+          <option>La casa de los espíritus</option>
+          <option>El juego del ángel</option>
+        </select>
+        <input id="normasPrestamo" type="checkbox" name="normasPrestamo" />
+        <label for="normasPrestamo">Acepto las normas del prestamo</label>
+        <input type="submit" value="Solicitar Prestamo" />
       </form>
     </section>
     <footer>
